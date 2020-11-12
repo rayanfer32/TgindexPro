@@ -34,6 +34,7 @@ async def setup_routes(app, handler):
         web.get('/', h.home),
         web.post('/otg', h.dynamic_view),
         web.get('/otg', h.otg_view),
+        web.get('/pc',h.playlist_creator),
         web.get(p, h.index),
         web.get(p + r"/logo", h.logo),
         web.get(p + r"/{id:\d+}/view", h.info),

@@ -22,6 +22,8 @@
                         <div title="{% if item.media %} {{item.mime_type}} | {{item.human_size}} {% else %} Text message {% endif %}"  class="flex space-y-1 flex-col items-center justify-center w-full min-h-full md:w-1/5 lg:w-1/6 rounded my-4 md:mx-1 shadow-md hover:shadow-lg hover:bg-teal-600 hover:border hover:border-blue-200">
                         
                             {% if item.media %}
+                                <div class="bg-indigo-400 font-semibold text-white py-1 px-2">{{item.file_id}}</div>
+
                                 <a href="{{item.url}}"><img src="{{item.thumbnail}}" class="w-full rounded"></a>
 
                                 <a href="{{item.download}}" class="bg-gray-100 hover:bg-gray-400 text-gray-900 font-semibold py-2 px-4 rounded inline-flex items-center"> <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> 

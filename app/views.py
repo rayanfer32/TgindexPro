@@ -53,6 +53,14 @@ class Views:
 
         return return_data
 
+    @aiohttp_jinja2.template('playlistCreator.html')
+    async def playlist_creator(self, req):
+        return_data = {}
+        error = req.query.get('e')
+        if error:
+            return_data.update({'error': error})
+        return return_data
+
 
 
     async def dynamic_view(self, req):
