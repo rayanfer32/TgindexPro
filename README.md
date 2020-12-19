@@ -1,9 +1,10 @@
 # Telegram Index Pro
 ###### Get your media streaming right from your telegram chat into VLC player and web player. No Downloads to wait for!! Easy to Share !!
 
-[![Open Source Love](https://img.shields.io/github/issues/Rayanfer32/TgindexPro?style=for-the-badge)](.) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-orange.svg?style=for-the-badge)](LICENSE) [![GitHub forks](https://img.shields.io/github/forks/Rayanfer32/TgindexPro?style=for-the-badge)]() [![GitHub Stars](https://img.shields.io/github/stars/Rayanfer32/TgindexPro?style=for-the-badge)]() [![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FRayanfer32%2FTgindexPro)
+[![Open Source Love](https://img.shields.io/github/issues/Rayanfer32/TgindexPro?style=for-the-badge)](.) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-orange.svg?style=for-the-badge)](LICENSE) [![GitHub forks](https://img.shields.io/github/forks/Rayanfer32/TgindexPro?style=for-the-badge)]() [![GitHub Stars](https://img.shields.io/github/stars/Rayanfer32/TgindexPro?style=for-the-badge)]() [![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:http://github.com/Rayanfer32/TgindexPro)
 
-
+## Deploy Now!
+[<img height=100 src="https://repl.it/badge/github/Rayanfer32/TgindexPro">](https://repl.it/github/Rayanfer32/TgindexPro)
 
 ## Highlights
 
@@ -24,10 +25,11 @@
 
 ## Deploy Guide
 #### Easy Way:
-[![Run on repl.it](https://repl.it/badge/github/Rayanfer32/TgindexPro)](https://repl.it/github/Rayanfer32/TgindexPro}&ref=button)
+[![Run on repl.it](https://repl.it/badge/github/Rayanfer32/TgindexPro)](https://repl.it/github/Rayanfer32/TgindexPro)
+
 
 #### Preventing repl from going offline:
-**Open** [Uptimerobot.com](uptimerobot.com) **and add your index site to be uptimemonitor(this will ping the site every 5 minutes to keep the site alive)**
+**Open** [Uptimerobot.com](https://uptimerobot.com) **and add your index site to be uptimemonitor(this will ping the site every 5 minutes to keep the site alive)**
 
 * **Environment Variables.**
 `Edit the .env file inside`
