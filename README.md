@@ -29,7 +29,7 @@
 
 
 #### Preventing repl from going offline:
-**Open** [Uptimerobot.com](https://uptimerobot.com) **and add your index site to be uptimemonitor(this will ping the site every 5 minutes to keep the site alive)**
+**Open** [Uptimerobot.com](https://uptimerobot.com) **and add your index site under HTTP(s) (this will ping the site every 5 minutes to keep the site alive)**
 
 * **Environment Variables.**
 `Edit the .env file inside`
