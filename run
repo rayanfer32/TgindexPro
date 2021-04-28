@@ -1,2 +1,0 @@
-#python3 -m app
-python3 app/generate_session_string.py

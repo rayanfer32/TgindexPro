@@ -4,7 +4,7 @@
 [![Open Source Love](https://img.shields.io/github/issues/Rayanfer32/TgindexPro?style=for-the-badge)](.) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-orange.svg?style=for-the-badge)](LICENSE) [![GitHub forks](https://img.shields.io/github/forks/Rayanfer32/TgindexPro?style=for-the-badge)]() [![GitHub Stars](https://img.shields.io/github/stars/Rayanfer32/TgindexPro?style=for-the-badge)]() [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frayanfer32%2FTgindexPro&count_bg=%23C917A3&title_bg=%231C33B0&icon=ionic.svg&icon_color=%23F5F5F5&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 
 ## Deploy Now!
-[<img height=100 src="https://repl.it/badge/github/Rayanfer32/TgindexPro">](https://repl.it/github/Rayanfer32/TgindexPro)
+[<img height=50 src="https://repl.it/badge/github/Rayanfer32/TgindexPro">](https://repl.it/github/Rayanfer32/TgindexPro)
 
 ## Highlights
 
