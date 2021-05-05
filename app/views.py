@@ -154,7 +154,7 @@ class Views:
                     human_size=get_human_size(m.file.size),
                     url=req.rel_url.path + f"/{m.id}/view",
                     download=req.rel_url.path + f"/{m.id}/download",
-                    vlc =  f"/{m.id}/download",
+                    vlc =  f"/{m.id}/v.mp4",
                     dl = f"/{m.id}/download"
                 )
                 # print(req)

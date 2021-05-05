@@ -41,10 +41,15 @@ async def setup_routes(app, handler):
         web.get(p + r"/{id:\d+}/download", h.download_get),
         web.head(p + r"/{id:\d+}/download", h.download_head),
         web.get(p + r"/{id:\d+}/thumbnail", h.thumbnail_get),
+
         #below routes work without alias id
+        web.get(r"/{id:\d+}/", h.download_get),
+        web.head(r"/{id:\d+}/", h.download_head),
         web.get(r"/{id:\d+}/view", h.info),
         web.get(r"/{id:\d+}/download", h.download_get),
         web.head(r"/{id:\d+}/download", h.download_head),
+        web.get(r"/{id:\d+}/v.mp4", h.download_get),
+        web.head(r"/{id:\d+}/v.mp4", h.download_head),
         web.view(r'/{wildcard:.*}', h.wildcard)
     ]
     index_all = index_settings['index_all']
