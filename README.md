@@ -1,5 +1,5 @@
 # Telegram Index Pro
-### Get your media streaming right from your telegram chat into VLC player and web player. No Downloads to wait for!! Easy to Share !!
+**Get your media streaming right from your telegram chat into VLC player and web player. No Downloads to wait for!! Easy to Share !!**
 
 [![Open Source Love](https://img.shields.io/github/issues/Rayanfer32/TgindexPro?style=for-the-badge)](.) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-orange.svg?style=for-the-badge)](LICENSE) [![GitHub forks](https://img.shields.io/github/forks/Rayanfer32/TgindexPro?style=for-the-badge)]() [![GitHub Stars](https://img.shields.io/github/stars/Rayanfer32/TgindexPro?style=for-the-badge)]() [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frayanfer32%2FTgindexPro&count_bg=%23C917A3&title_bg=%231C33B0&icon=ionic.svg&icon_color=%23F5F5F5&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 
@@ -25,11 +25,11 @@
 
 ## Deploy Guide
 
-## One Click Deploy (Easy):
-## Step 1:
+### One Click Deploy (Easy):
+### Step 1:
 > Click here > [![Run on repl.it](https://repl.it/badge/github/Rayanfer32/TgindexPro)](https://repl.it/github/Rayanfer32/TgindexPro)
 
-## Step 2:
+### Step 2:
 **Environment Variables.**
 `Add these Environment Variables (Secrets) in the sidebar`
 
@@ -39,8 +39,8 @@
 | `API_HASH` (required) | Telegram api_hash obtained from https://my.telegram.org/apps.
 | `INDEXING_CHAT` (required) | Chat_ID of the chat you are using for index (add `chat id echo bot` to ur group or channel and make it admin to show chat id) 
 
-## Step 3:
-### Press Run button on top.
+### Step 3:
+#### Press **Run** button on top.
 * Enter your phone number only (Bot token is not supported)
 * Enter the recieved OTP
 * Now copy the session string to the secrets.
@@ -50,8 +50,8 @@
 | `SESSION_STRING` (required) | String obtained by running `$ python3 app/generate_session_string.py`. (Login with the telegram account which is a participant of the given channel (or chat).
 
 
-## Step 4:
-### Preventing repl from going offline:
+### Step 4:
+#### Preventing repl from going offline:
 **Open** [uptimerobot.com](https://uptimerobot.com) **and add your index site under HTTP(s)**
 >  This will ping the site every 5 minutes and prevent repl from shutting down.
 
