@@ -45,15 +45,17 @@
 | `INDEXING_CHAT` (required) | Chat_ID of the chat you are using for index (add `chat id echo bot` to ur group or channel and make it admin to show chat id) 
 
 ### Step 3:
-#### Press **Run** button on top.
+#### Press `Run` button on top.
 * Enter your phone number only (Bot token is not supported)
 * Enter the recieved OTP
+
 * Now copy the session string to the secrets.
 
 | Variable Name | Value
 |------------- | -------------
 | `SESSION_STRING` (required) | String obtained by running `$ python3 app/generate_session_string.py`. (Login with the telegram account which is a participant of the given channel (or chat).
 
+#### Press `Run` button on top to start the webserver.
 
 ### Step 4:
 #### Preventing repl from going offline:
