@@ -33,6 +33,7 @@
 
 ### Step 2:
 **Environment Variables.**
+![repl secrets sidebar](img/repl-secrets.jpg "playlist site")
 `Add these Environment Variables (Secrets) in the sidebar`
 
 | Variable Name | Value
