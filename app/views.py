@@ -527,6 +527,7 @@ class Views:
         status=206 if req.http_range.start else 200,
         body=body,
         headers={
+          "Access-Control-Allow-Origin": "*",
             "Content-Type": mime_type,
             "Content-Range": f"bytes {offset}-{limit}/{size}",
             "Content-Disposition": f'attachment; filename="{file_name}"',
