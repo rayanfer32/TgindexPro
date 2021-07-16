@@ -13,8 +13,9 @@ class Client(TelegramClient):
     
 
     async def download(self, file, file_size, offset, limit):
-        part_size_kb = utils.get_appropriated_part_size(file_size)
-        part_size = int(part_size_kb * 1024)
+        # part_size_kb = utils.get_appropriated_part_size(file_size)
+        # part_size = int(part_size_kb * 1024)
+        part_size = 512*1024
         first_part_cut = offset % part_size
         first_part = math.floor(offset / part_size)
         last_part_cut = part_size - (limit % part_size)
